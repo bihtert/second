@@ -1,6 +1,6 @@
 ##n = int(input("Enter the number of the last term:"))
 
-n = 15
+n = 25
 
 def F() :
     n1, n2, n3 = 0,1,1
