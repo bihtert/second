@@ -1,5 +1,6 @@
+##n = int(input("Enter the number of the last term:"))
 
-n = int(input("Enter the number of the last term:"))
+n = 10
 
 def F() :
     n1, n2, n3 = 0,1,1
@@ -19,4 +20,5 @@ for i , f in zip(range(1,n+1) , F()):
     else:
         print(i ,"th number" , ":" , f)
 
-print(input("Press enter to exit.",))
+F(n)       
+##print(input("Press enter to exit.",))
