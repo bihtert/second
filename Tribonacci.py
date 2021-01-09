@@ -2,7 +2,7 @@
 
 n = 10
 
-def F() :
+def F(n) :
     n1, n2, n3 = 0,1,1
     while True:
         yield n1
@@ -19,6 +19,5 @@ for i , f in zip(range(1,n+1) , F()):
         print(i ,"rd number" , ":" , f)
     else:
         print(i ,"th number" , ":" , f)
-
-F(n)       
+      
 ##print(input("Press enter to exit.",))
