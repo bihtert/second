@@ -1,8 +1,8 @@
 ##n = int(input("Enter the number of the last term:"))
 
-n = 10
+n = 15
 
-def F(n) :
+def F() :
     n1, n2, n3 = 0,1,1
     while True:
         yield n1
